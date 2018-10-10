@@ -35,7 +35,7 @@ func CheckPasswordHash(password, hash string) bool {
 }
 
 func openDB()  *sql.DB{
-	db, err := sql.Open("mysql","dario:dario123@/e-library")
+	db, err := sql.Open("mysql","dario:notImportant@/e-library")
 
 	if err != nil {
 		panic(err.Error())
